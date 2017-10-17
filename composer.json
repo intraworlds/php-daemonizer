@@ -1,0 +1,25 @@
+{
+  "name": "intraworlds/php-daemonizer",
+  "description": "Simplest way how to daemonize PHP process",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "ext-posix": "*",
+    "ext-pcntl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ondrej Esler",
+      "email": "ondrej.esler@intraworlds.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IW\\": "src/"
+    }
+  }
+}
